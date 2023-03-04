@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import styles from './home.module.scss';
-import { SubscribeButton } from '../components/SubsctibeButton';
+import { SubscribeButton } from '../components/SubscribeButton';
 import { GetServerSideProps } from 'next';
 import { stripe } from '../services/stripe';
 
