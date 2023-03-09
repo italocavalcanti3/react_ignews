@@ -1,8 +1,6 @@
 import * as Prismic from '@prismicio/client';
 
-
-
-export function getPrismicClient() {
+export function getPrismicClient(req?: unknown) {
   const repositoryName = 'ignews-italocavalcanti3'
 
   const prismic = Prismic.createClient(
